@@ -10,7 +10,7 @@ const PORT=process.env.PORT || 4000
  
 const app=express()
 app.use(express.json())
-app.use(cors({ origin: `https://server-vldn.onrender.com`, credentials: true }));
+app.use(cors({ origin: `https://genimgz.netlify.app`, credentials: true }));
 
 await connectDB()
 
